@@ -1,4 +1,29 @@
 /*  your css code here. If applicable */
+body{
+	background-color: rgb(204, 204, 204); 
+}
 .center{
 	text-align: center;
+}
+ul{
+	border: 2px solid black;
+	padding: 20px;
+	border-radius: 20px;
+	background-color: #fff;
+}
+ul li{
+	list-style-type: none;
+}
+.audio{
+	width: 80%;
+}
+
+.playing-container{
+	border: 2px solid black;
+	padding: 15px 0;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
